@@ -11,10 +11,10 @@
 // -------------------------
 $black:                 #000 !default;
 $grayDarker:            #222 !default;
-$grayDark:              #333 !default;
+$grayDark:              #393 !default;
 $gray:                  #555 !default;
 $grayLight:             #999 !default;
-$grayLighter:           #eee !default;
+$grayLighter:           #ee9 !default;
 $white:                 #fff !default;
 
 
@@ -32,7 +32,7 @@ $purple:                #7a43b6 !default;
 
 // Scaffolding
 // -------------------------
-$bodyBackground:        $white !default;
+$bodyBackground:        $pink !default;
 $textColor:             $grayDark !default;
 
 
@@ -48,7 +48,7 @@ $sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
 
-$baseFontSize:          14px !default;
+$baseFontSize:          16px !default;
 $baseFontFamily:        $sansFontFamily !default;
 $baseLineHeight:        20px !default;
 $altFontFamily:         $serifFontFamily !default;
