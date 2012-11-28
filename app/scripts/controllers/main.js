@@ -1,9 +1,5 @@
 'use strict';
 
-ninjaAngularApp.controller('MainCtrl', function($scope) {
-  $scope.awesomeThings = [
-    'HTML5 Boilerplate',
-    'AngularJS',
-    'Testacular'
-  ];
+ninjaAngularApp.controller('MainCtrl', function($scope, dojo) {
+  $scope.dojo = dojo;
 });
