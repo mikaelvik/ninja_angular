@@ -7,6 +7,10 @@ var ninjaAngularApp = angular.module('ninjaAngularApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/fight', {
+        templateUrl: 'views/fight.html',
+        controller: 'FightCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
